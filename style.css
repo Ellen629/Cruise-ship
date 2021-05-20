@@ -77,4 +77,172 @@ nav ul li:not(:last-child) {
 #section3 > div > div {
     max-width: 690px;
 }
+#section3 > div > div p {
+    font-size: 1rem;
+    line-height: 1.9rem;
+    align: left;
+}
+#section3  img {
+    width: 43rem;
+    height: 28rem;
+    left: 61rem;
+top: 159.3rem;
+}
+#section4 {
+    width: 100%;
+    height: 300px;
+}
+#section4 div {
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 90%;
+    height: 200px;
+    margin: 50px 40px 30px 80px;
+
+}
+#section4 div h4 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.2rem;
+    color: #0F123B;
+    padding-top: 27px;
+    padding-left: 100;
+    padding-bottom: 20px; 
+}
+input {
+    background:  #E5E5E5;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+}
+button {
+    padding: 15px 70px 15px 70px;
+    background: #276DC3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+}
+footer {
+    position: absolute;
+    bottom: 0px;
+    height: 300px;
+    width: 90%;
+}
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+}
+footer div h4 {
+    font-size: 1.5rem;
+    color: #276DC3;
+} 
+footer div ul li {
+    margin-right: 2rem; 
+}
+footer p {
+    color: #4A4A4A;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+#separate {
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 100%;
+}
+#separate table {
+    border: 0.5px;
+   
+}
+#separate table tr td {
+    width: 50px;
+    height: 50px;
+    border: 1px;
+}
+#header2 {
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+}
+#header2 nav ul li {
+    color: #0F123B;
+    font-size: 1rem;
+}
+#separate2 {
+    background-color: #FFFFFF;
+    width: 80%;
+    height: 150px;
+    position: absolute;
+    top: 230px;
+    left: 125px;
+    right: 125px;
+}
+#separate2 table tr  {
+    width: 50px;
+    height: 50px;
+    border: 1px;
+}
+#separate2 table tr td button {
+    Padding: 20px 120px 20px 120px;
+    background-color: #FF7340;
+    color: #FFFFFF;
+    border-radius: 7px;
+    font-size: 1rem;
+}
+#div5 {
+    display: flex;
+    
+}
+ #p1 {
+    color: #0F123B;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 460px;
+    bottom: 80px;
+    left: 125px;
+}
+#p2{
+    color: #276DC3;
+    font-size: 1.1rem;
+    margin-left: 30px;
+    position: absolute;
+    top: 466px;
+    bottom: 80px;
+    left: 350px;
+    
+}
+#list1 {
+    display: flex;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 546px;
+    left: 125px;
+}
+#p3 {
+    position: absolute;
+    top: 30px;
+    left: 600px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #276DC3;
+
+}
+#p4 {
+    position: absolute;
+    top: 70px;
+    left: 600px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #276DC3;
+    line-height: 27px;
+}
+
+
+
 
