@@ -8,6 +8,7 @@ html {
 body {
     background: #E5E5E5;
     height: 100vh;
+    font-family: 'Poppins', sans-serif;
 }
 header {
     width: 100%;
@@ -84,6 +85,10 @@ ul {
     line-height: 1.9rem;
     align: left;
 }
+#section3 > div > div a {
+    color: #276DC3;
+    font-size: 1rem;
+}
 #section3  img {
     width: 43rem;
     height: 28rem;
@@ -129,36 +134,41 @@ button {
     border: none;
     font-size: 1rem;
 }
-footer {
+#footer {
+    flex-direction: column;
     background-color:  #FFFFFF;
     position: relative;
     bottom: 0px;
     height: 200px;
     width: 100%;
 }
-footer div {
+#footer div {
     display: flex;
+    
+}
+#footer_nav {
     justify-content: space-evenly;
 }
-footer > div > h4 {
+#footer > div > h4 {
     font-size: 1.5rem;
     color: #276DC3;
     padding-top: 50px;
     padding-left: 10px;
     
 } 
-footer div ul li {
+#footer div ul li {
     font-size: 1rem;
     color: #0F123B;
     margin-right: 2rem; 
     padding-top: 56px;
 }
-footer p {
+#footer div p {
     color: #4A4A4A;
     font-size: 1rem;
     line-height: 1.5rem;
-    padding-bottom: 70px;
-    padding-left: 70px;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-top: 80px;
 }
 #separate {
     display: flex;
@@ -214,7 +224,6 @@ footer p {
 #separate2 div:not(:last-child) {
     border-right: 1px solid #E1E1E1;
     width: 15%;
-    }
 }
 #separate2 div {
     height: 100px;
@@ -288,7 +297,7 @@ footer p {
     position: absolute;
     top: 466px;
     bottom: 80px;
-    left: 350px;
+    left: 400px;
     
 }
 #list1 {
@@ -299,38 +308,130 @@ footer p {
     top: 546px;
     left: 125px;
 }
-#div6 {
-    display: flex;
-}
-#p3 {
-    position: absolute;
-    top: 30px;
-    left: 600px; 
-    font-size: 1.5rem;
-    font-weight: 600;
-    color: #276DC3;
-    padding-top: 15px;
-
-}
-#p4 {
-    position: absolute;
-    top: 70px;
-    left: 600px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #0F123B;
-    line-height: 27px;
-}
-#flightdate {
-    display: flex;
-    position: relative;
-    top: 120px;
-    left: 50px;
-   
-}
-#flightdate div {
+#second_div div:not(:last-child) {
     border-bottom: 1px solid #E1E1E1;
 }
+#p3 {
+    color: #276DC3;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#p4 {
+    color: #0F123B;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-bottom: 15px;
+}
+#date {
+    display: flex;
+}
+.first_p {
+    color: #0F123B;
+    font-size: 1.1rem;
+    padding-top: 30px; 
+}
+#date div p {
+    padding-left: 30px;
+}
+.second_p {
+    color: #4A4A4A;
+    font-size: 1rem;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+#details {
+    display: flex;
+}
+#value {
+    color: #0F123B;
+    font-size: 1.9rem;
+    font-weight: 600;
+    padding-left: 30px;
+    padding-top: 91px;
+}
+#buttons {
+    padding-top: 92px;
+    padding-left: 150px;
+    margin: 10px;
+}
+#details_button {
+    color: #FFFFFF;
+    background-color: #276DC3;
+    font-size: 1rem;
+   margin-right: 8px;
+   
+}
+#select_button {
+    background-color: #FF7340;
+    
+    
+}
+#list2 {
+    display: flex;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 976px;
+    left: 125px;
+}
+#list3 {
+    display: flex;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 1410px;
+    left: 125px;
+}
+#list4 {
+    display: flex;
+    width: 80%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 1850px;
+    left: 125px;
+}
+#footer2 {
+    flex-direction: column;
+    background-color:  #FFFFFF;
+    position: absolute;
+    bottom: 0px;
+    height: 200px;
+    width: 100%;
+}
+#footer2 div {
+    display: flex;
+    
+}
+#footer2_nav {
+    justify-content: space-evenly;
+}
+#footer2 > div > h4 {
+    font-size: 1.5rem;
+    color: #276DC3;
+    padding-top: 50px;
+    padding-left: 10px;
+    
+} 
+#footer2 div ul li {
+    font-size: 1rem;
+    color: #0F123B;
+    margin-right: 2rem; 
+    padding-top: 56px;
+}
+#footer2 div p {
+    color: #4A4A4A;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding-bottom: 40px;
+    padding-left: 100px;
+    padding-top: 80px;
+}
+
 
 
 
