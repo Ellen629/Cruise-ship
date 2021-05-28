@@ -1,0 +1,102 @@
+@media only  screen and (max-width: 912px)  {
+    #navbar1 ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #navbar1 ul li {
+        padding-top: 20px;
+    }
+    header {
+        width: 80%;
+    }
+    header img {
+        background-size: contain;
+    }
+    #navbar1 h3 {
+        position: absolute;
+        top: 16px;
+        left: 20px;
+        font-size: 1rem;
+    }
+    #separate {
+        width: 80%;
+        font-size: 0.7rem;
+        position: relative;
+        bottom: 650px;
+        left: 0px;
+    }
+    #separate div  p {
+        display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    }
+    #separate div button {
+        width: 80px;
+    }
+    #navbar1 ul li a {
+        font-size: 0.6rem;
+        padding-top: 30px;
+    }
+    .picture img {
+        display: flex;
+        width: 350px;
+        height: 250px;
+        flex-direction: column;
+        padding-left: 100px;
+    }
+    .section1 {
+        margin-left: 30px;
+        padding-top: 10px;
+    }
+    #section3 > div {
+        width:70%;
+        flex-direction: column;
+        /* overflow-x: hidden; */
+    }
+    #section3 > div > div > h3 {
+        font-size: 1rem;
+        text-align: center;
+    }
+    #section3 > div > div > p {
+        font-size: 0.8rem;
+    }
+    #section3 img {
+        width: 400px;
+        height: 300px;
+        text-align: center;
+    }
+
+    #section4 {
+        height: 200px;
+         width: 80%;
+         
+    }
+    #section4 div {
+        margin-left: 0px;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    footer {
+        width: 70%;
+        height: 150px;
+        padding-top: 60px;
+        position: relative;
+        bottom: 0px;
+    }
+    #footer_nav h4 {
+        position: absolute;
+        font-size: 1rem;
+        left: 5px;
+        top: 0px;
+    }
+    #footer ul li {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    #footer_nav ul li a {
+        font-size: 0.7rem;
+    }
+}

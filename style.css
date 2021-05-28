@@ -7,7 +7,6 @@ html {
 }
 body {
     background: #E5E5E5;
-    height: 100vh;
     font-family: 'Poppins', sans-serif;
 }
 header {
@@ -15,6 +14,8 @@ header {
     background-image: url(./assets/header.png);
     height: 90vh;
     background-repeat: no-repeat;
+    background-size: contain;
+    overflow: hidden;
 }
 #navbar1 {
     width: 90%;
@@ -45,7 +46,7 @@ ul {
     font-size: 2rem;
     color: #0F123B;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 10px;
 
 }
 .picture {
@@ -83,7 +84,7 @@ ul {
 #section3 > div > div p {
     font-size: 1rem;
     line-height: 1.9rem;
-    align: left;
+    text-align: left;
 }
 #section3 > div > div a {
     color: #276DC3;
@@ -125,6 +126,7 @@ input {
     width: 90%;
     height: 40px;
     border-radius: 5px;
+    padding-left: 10px;
 }
 button {
     padding: 15px 70px 15px 70px;
@@ -139,7 +141,7 @@ button {
     background-color:  #FFFFFF;
     position: relative;
     bottom: 0px;
-    height: 200px;
+    height: 220px;
     width: 100%;
 }
 #footer div {
@@ -173,10 +175,10 @@ button {
 #separate {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
+    /* align-items: center; */
+    position: relative;
     left: 125px;
-    top: 500px;
+    bottom: 80px;
     background-color: #FFFFFF;
     width: 80%;
     height: 150px;
@@ -196,8 +198,8 @@ button {
 #separate button {
     background-color: #FF7340;
     font-size: 1rem;
-    padding: 20px 120px;
-    margin: 10px 10px;
+    align-items: center;
+    /* margin: 10px 10px; */
 }
 .class1 { 
     color: #000000;
@@ -209,17 +211,16 @@ button {
     font-size: 0.8rem;
     padding-top: 10px;
 }
+#div_sep {
+    margin: 50px;
+}
 #separate2 {
     display: flex;
     justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 125px;
-    top: 500px;
-    background-color: #FFFFFF;
-    width: 80%;
+    margin: 0 auto;
+    /* width: 100%;   */
     height: 150px;
-    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.3);
 }
 #separate2 div:not(:last-child) {
     border-right: 1px solid #E1E1E1;
@@ -260,12 +261,12 @@ button {
     width: 90%;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
     padding-top: 2rem;
 }
 #navbar2 ul {
     display: flex;
     list-style: none;
-    align-items: center;
 }
 #navbar2 ul li:not(:last-child) {
     margin-right: 2.5rem;
@@ -274,40 +275,42 @@ button {
     background-color: #FFFFFF;
     width: 80%;
     height: 150px;
-    position: absolute;
-    top: 230px;
-    left: 125px;
-    right: 125px;
 }
 #div5 {
+    width: 47%;
     display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
 }
  #p1 {
     color: #0F123B;
     font-size: 1.5rem;
-    position: absolute;
-    top: 460px;
-    bottom: 80px;
-    left: 125px;
 }
 #p2{
     color: #276DC3;
     font-size: 1.1rem;
     margin-left: 30px;
-    position: absolute;
-    top: 466px;
-    bottom: 80px;
-    left: 400px;
-    
 }
 #list1 {
     display: flex;
+    margin: 0 auto;
     width: 80%;
-    background-color: #FFFFFF;
-    position: absolute;
-    top: 546px;
-    left: 125px;
+    background-color: #FFFFFF; 
+    margin-bottom: 30px; 
 }
+
+
+#list1 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+#list1 > div > div > img {
+    width: 550px;
+    height: 455px;
+}
+
 #second_div div:not(:last-child) {
     border-bottom: 1px solid #E1E1E1;
 }
@@ -364,43 +367,64 @@ button {
     background-color: #276DC3;
     font-size: 1rem;
    margin-right: 8px;
-   
 }
 #select_button {
-    background-color: #FF7340;
-    
-    
+    background-color: #FF7340;    
 }
 #list2 {
     display: flex;
     width: 80%;
     background-color: #FFFFFF;
-    position: absolute;
-    top: 976px;
-    left: 125px;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+}
+#list2 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#list2 > div > div > img {
+    width: 550px;
+    height: 455px;
 }
 #list3 {
     display: flex;
     width: 80%;
     background-color: #FFFFFF;
-    position: absolute;
-    top: 1410px;
-    left: 125px;
+    margin: 0 auto;
+    margin-bottom: 30px; 
+}
+#list3 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+#list3 > div > div > img {
+    width: 550px;
+    height: 455px;
 }
 #list4 {
     display: flex;
     width: 80%;
     background-color: #FFFFFF;
-    position: absolute;
-    top: 1850px;
-    left: 125px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+#list4 > div > div > img {
+    width: 550px;
+    height: 455px;
+}
+#list4 > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;   
 }
 #footer2 {
     flex-direction: column;
     background-color:  #FFFFFF;
-    position: absolute;
+    position: relative;
     bottom: 0px;
-    height: 200px;
+    height: 220px;
     width: 100%;
 }
 #footer2 div {
