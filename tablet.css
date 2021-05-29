@@ -1,3 +1,72 @@
+@media only screen and (max-width: 1620px) {
+    #buttons {
+        padding-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    #details {
+        flex-direction: column;
+    }
+    #list1 > div > div, #list1 > div > div > img  {
+        height: 100%;
+        width: 100%;
+    }
+
+    #value {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+    #buttons {
+        padding: 20px 0;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 1110px) {
+    #list1 > div {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    #p3 {
+        padding-right: 30px;
+    }
+    #date {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .first_p, .second_p {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #buttons {
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+
+    }
+    #details_button {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    #date div p {
+        padding-left: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #select_button {
+        width: 80%;
+    }
+}
+
+
+
+
 @media only  screen and (max-width: 912px)  {
     #navbar1 ul {
         display: flex;
